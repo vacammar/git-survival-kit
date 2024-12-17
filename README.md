@@ -1,13 +1,15 @@
-# git-survival-kit
+# ⛑️ git-survival-kit
 
 For many developers, working life has become tough 😀 since Git has become widely used, and one of the main version 
 control systems (CVS) adopted in the software development landscape.
-Simple, because we think that for really undestand how git work and what is under the hood of the plugins, the better 
+
+Now, most of your say yourself; "_But because use Git from CLI, when we have beautiful plugins in the my favourite IDE?_"
+Simple, because we think that for really understand how git work and what is under the hood of the plugins, the better 
 thing is the use of the Command Line Interface (CLI). 
 
 Yes, that devil 😈.
 
-This is the reason of the born of this repository, indeed the aim would create a collection of the most useful Git commands, 
+This repository born with indeed the aim would create a collection of the most useful Git commands, 
 that help developers and not, to survive in a working day with Git as CVS.
 
 ## About GIT
@@ -101,13 +103,15 @@ _When I try to push my changes, Git say that "Everything up-to-date"_ 🤔
 _Mmmm...I do git fetch and git pull, but "I'm not see your updates"_ 🤔
 
 
-To fix in mind the right sequence of commands, to make available your updates at the rest of dev teams, thing a semaphore
+
+To fix in mind the right sequence of commands, to make available your updates at the rest of dev teams, thing a semaphore.
 
 🔴 Add updated files with `git add`</br>
 🟠 Commit the changes with `git commit` or `git commit -m "Ok I'm committed"`</br>
 🟢 Push to remote repository with `git push`</br>
 
-
+Yes, that's all. </br>
+Enjoy the power of Git 🚀
 
 ## Reference Documentation
 For further references, please consider the following resources:
