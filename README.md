@@ -86,6 +86,23 @@ Revert some existing commits.
 
 ---
 
+### 📌 `tag`
+
+Create, list, delete or verify a tag object signed with GPG.
+
+**Reference:** [git-add](https://git-scm.com/docs/git-tag)
+
+Declinations of `tag` command are used to:
+
+- **List tags:** `git tag --list` or shortly `git tag -l`
+- **Delete tag:** `git tag --delete my-tag` or shortly `git tag -d my-tag`
+
+Remember also, that after the creation of tag, we need to push it:
+
+`git push origin my-tag`
+
+---
+
 
 ## Devs mysteries 👻
 
