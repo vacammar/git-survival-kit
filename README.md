@@ -103,7 +103,6 @@ Remember also, that after the creation of tag, we need to push it:
 
 ---
 
-
 ## Devs mysteries 👻
 
 For novice devs, one of the common mistake is the wrong command sequence. All are familiar with one of this phrases.
@@ -130,6 +129,20 @@ To fix in mind the right sequence of commands, to make available your updates at
 
 Yes, that's all. </br>
 Enjoy the power of Git 🚀
+
+
+## The credentials hells 🔥
+
+How many times we have entered credentials after single git command?</br>
+I think it has happened to everyone at least once.
+
+To solve this, use the below command:
+
+`git config --global credential.helper store`
+
+after, the credentials are stored into `~/.git-credentials` file and Git not ask you to digit again 😉
+
+
 
 ## Reference Documentation
 For further references, please consider the following resources:
