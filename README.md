@@ -10,7 +10,7 @@ thing is the use of the Command Line Interface (CLI).
 Yes, that devil 😈.
 
 This repository born with indeed the aim would create a collection of the most useful Git commands, 
-that help developers and not, to survive in a working day with Git as CVS.
+that help developers, and not, to survive in a working day with Git.
 
 ## About GIT
 
@@ -87,27 +87,28 @@ Revert some existing commits.
 ---
 
 
-## Semaphore similitude
+## Devs mysteries 👻
 
 For novice devs, one of the common mistake is the wrong command sequence. All are familiar with one of this phrases.
 
-## Git commit without add
+### Git commit without add
 
 _When I try to commit files, Git say "Your branch is up to date with 'origin/main'"_ 🤔
 
-## Git push without commit
+### Git push without commit
 
-_When I try to push my changes, Git say that "Everything up-to-date"_ 🤔
+_When I try to push my changes, Git say that "Everything up-to-date"_ 🥴
 
 ### Add and commit without push
-_Mmmm...I do git fetch and git pull, but "I'm not see your updates"_ 🤔
+_Mmmm...I do git fetch and git pull, but "I'm not see your updates"_ 🤯
 
 
+## Semaphore similitude 🚦
 
 To fix in mind the right sequence of commands, to make available your updates at the rest of dev teams, thing a semaphore.
 
 🔴 Add updated files with `git add`</br>
-🟠 Commit the changes with `git commit` or `git commit -m "Ok I'm committed"`</br>
+🟡 Commit the changes with `git commit` or `git commit -m "Ok I'm committed"`</br>
 🟢 Push to remote repository with `git push`</br>
 
 Yes, that's all. </br>
@@ -120,6 +121,8 @@ For further references, please consider the following resources:
 - [GIT book (EN) v.2 ](https://git-scm.com/book/en/v2)
 
 ## Contributors
+
+We are only the start contributors, feel free to fork or integrate other, `we appreciate you contribute`.
 
 - [fra-diomede](https://github.com/fra-diomede)
 - [GuastafierroSt](https://github.com/GuastafierroSt)
