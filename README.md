@@ -20,15 +20,15 @@ Source: [Getting Started - What is Git?](https://git-scm.com/book/en/v2/Getting-
 
 ## Top commands
 
-Below the most used GIT commands in a developer day.
+Below the most useful GIT commands in a developer day, and some tricks.
 
-### Command `clone`
+### 📌`clone`
 
 **Description:** Clone a repository into a new directory.
 
 **Reference:** [git-add](https://git-scm.com/docs/git-clone)
 
-### Command `add`
+### 📌`add`
 
 Add file contents to the index.
 
@@ -36,15 +36,18 @@ Add file contents to the index.
 
 ---
 
-### Command `commit`
+### 📌 `commit`
 
 Record changes to the repository.
 
 **Reference:** [git-add](https://git-scm.com/docs/git-commit)
 
+Or more convenient with `-m` option, that allow to specify a commit message in a single line. </br>
+Example `git commit -m "Ok"`
+
 ---
 
-### Command `push`
+### 📌 `push`
 
 Update remote refs along with associated objects.
 
@@ -52,7 +55,7 @@ Update remote refs along with associated objects.
 
 ---
 
-### Command `checkout`
+### 📌 `checkout`
 
 Switch branches or restore working tree files.
 
@@ -60,15 +63,20 @@ Switch branches or restore working tree files.
 
 ---
 
-### Command `merge`
+### 📌 `merge`
 
 Join two or more development histories together.
 
 **Reference:** [git-add](https://git-scm.com/docs/git-merge)
 
+**Scenario:** Suppose we need to merge a feature branch into develop branch.
+
+One of the best strategy for reduce the possibility of conflicts, can be to first, merge destination branch (`develop`)
+into `feature` branch, after move to destination (`develop`) branch and merge the `feature` branch. 
+
 ---
 
-### Command `revert`
+### 📌 `revert`
 
 Revert some existing commits.
 
