@@ -149,6 +149,7 @@ For further references, please consider the following resources:
 
 - [GIT docs](https://git-scm.com/docs)
 - [GIT book (EN) v.2 ](https://git-scm.com/book/en/v2)
+- [Learn Git Branching](https://learngitbranching.js.org)
 
 ## Contributors
 
