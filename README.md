@@ -103,6 +103,18 @@ Remember also, that after the creation of tag, we need to push it:
 
 ---
 
+### 📌 `stash`
+
+temporarily shelves changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. Stashing is handy if you need to quickly switch context and work on something else, but you're mid-way through a code change and aren't quite ready to commit.
+
+**Reference:** [git-add](https://git-scm.com/docs/git-stash)
+
+`git stash pop`
+
+This command restores the most recent changes you saved in the stash to your working directory and removes them from the stash list. It's useful when you temporarily saved changes and are ready to continue working on them.
+
+---
+
 ## Devs mysteries 👻
 
 For novice devs, one of the common mistake is the wrong command sequence. All are familiar with one of this phrases.
