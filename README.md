@@ -1,7 +1,7 @@
 # ⛑️ git-survival-kit
 
 For many developers, working life has become tough 😀 since Git has become widely used, and one of the main version 
-control systems (CVS) adopted in the software development landscape.
+control systems (VCS) adopted in the software development landscape.
 
 Now, most of your say yourself; "_But because use Git from CLI, when we have beautiful plugins in the my favourite IDE?_"
 Simple, because we think that for really understand how git work and what is under the hood of the plugins, the better 
