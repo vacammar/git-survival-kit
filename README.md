@@ -28,7 +28,7 @@ Below the most useful GIT commands in a developer day, and some tricks.
 
 **Description:** Clone a repository into a new directory.
 
-**Reference:** [git-add](https://git-scm.com/docs/git-clone)
+**Reference:** [git-clone](https://git-scm.com/docs/git-clone)
 
 ### 📌`add`
 
@@ -42,7 +42,7 @@ Add file contents to the index.
 
 Record changes to the repository.
 
-**Reference:** [git-add](https://git-scm.com/docs/git-commit)
+**Reference:** [git-commit](https://git-scm.com/docs/git-commit)
 
 Or more convenient with `-m` option, that allow to specify a commit message in a single line. </br>
 Example `git commit -m "Ok"`
@@ -53,7 +53,7 @@ Example `git commit -m "Ok"`
 
 Update remote refs along with associated objects.
 
-**Reference:** [git-add](https://git-scm.com/docs/git-push)
+**Reference:** [git-push](https://git-scm.com/docs/git-push)
 
 ---
 
@@ -61,7 +61,7 @@ Update remote refs along with associated objects.
 
 Switch branches or restore working tree files.
 
-**Reference:** [git-add](https://git-scm.com/docs/git-checkout)
+**Reference:** [git-checkout](https://git-scm.com/docs/git-checkout)
 
 ---
 
@@ -69,7 +69,7 @@ Switch branches or restore working tree files.
 
 Join two or more development histories together.
 
-**Reference:** [git-add](https://git-scm.com/docs/git-merge)
+**Reference:** [git-merge](https://git-scm.com/docs/git-merge)
 
 **Scenario:** Suppose we need to merge a feature branch into develop branch.
 
@@ -82,7 +82,7 @@ into `feature` branch, after move to destination (`develop`) branch and merge th
 
 Revert some existing commits.
 
-**Reference:** [git-add](https://git-scm.com/docs/git-revert)
+**Reference:** [git-revert](https://git-scm.com/docs/git-revert)
 
 ---
 
@@ -90,7 +90,7 @@ Revert some existing commits.
 
 Create, list, delete or verify a tag object signed with GPG.
 
-**Reference:** [git-add](https://git-scm.com/docs/git-tag)
+**Reference:** [git-tag](https://git-scm.com/docs/git-tag)
 
 Declinations of `tag` command are used to:
 
@@ -107,7 +107,7 @@ Remember also, that after the creation of tag, we need to push it:
 
 Stash the changes in a dirty working directory away.
 
-**Reference:** [git-add](https://git-scm.com/docs/git-stash)
+**Reference:** [git-stash](https://git-scm.com/docs/git-stash)
 
 `git stash pop`
 
